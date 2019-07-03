@@ -230,6 +230,29 @@ header.masthead .intro-text .intro-heading {
   text-transform: none;
 }
 
+ul.lang-icons {
+  margin-bottom: 0;
+}
+
+ul.lang-icons li a {
+  font-size: 30px;
+  line-height: 40px;
+  margin-bottom: 10px;
+  display: block;
+  width: 40px;
+  height: 40px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  color: white;
+  border-radius: 10%;
+  outline: none;
+  background-color: #212529;
+}
+
+ul.lang-icons li a:active, ul.lang-icons li a:focus, ul.lang-icons li a:hover {
+  background-color: #868e96;
+}
+
 #portfolio .portfolio-item {
   right: 0;
   margin: 0 0 15px;
@@ -592,7 +615,7 @@ header.masthead .intro-text .intro-heading {
 
 section#contact {
   background-color: #212529;
-  background-image: url("../img/map-image.png");
+  background-image: url("../img/contact1.jpg");
   background-repeat: no-repeat;
   background-position: center;
 }
